@@ -118,7 +118,8 @@ background: #FFF;
 
 @media screen and (max-width:900px) {
     #handle{
-        padding: 15px 32px;
+        padding: 10px 22px;
+        font-size: 14px;
     }
     header nav ul{
         padding: 20px 50px;
@@ -130,6 +131,12 @@ background: #FFF;
         left: -200px;
         transition: all 1s ease;
     }
+    nav{
+        flex-wrap: wrap;
+    }
+    .container{
+        max-width: 90%;
+    }
     .open{
         left: 0px;
     }
@@ -138,5 +145,6 @@ background: #FFF;
         color: #FFF;
         font-size: 20px;
     }
+   
 }
 
