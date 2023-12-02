@@ -95,23 +95,128 @@ background: #FFF;
 }
 
 
+.header_title_box{
+    width: 500px;
+    margin-top: 200px;
+}
+.p_box{
+    text-align: center;
+    width: 250px;
+    color: #FFF;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    background-color: rgba(9, 18, 66, 0.25);
+    border-left: 2px solid #FFB629;
+}
+
+.header_title_box h2{
+    color: #FFF;
+font-family: Rubik;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.header_title_box p{
+    color: #FFF;
+font-family: Krub;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 151.523%; /* 24.244px */
+margin-bottom: 10px;
+}
+
+.header_title_box button{
+    width: 194px;
+height: 60px;
+flex-shrink: 0;
+color: #23212A;
+font-family: Krub;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 135.023%; 
+background: linear-gradient(#FFB629, #FFDA56, #FFD7A6);
+}
 
 
 
 
+main{
+    height: 100vh;
+}
 
+.biggest_box1 p{
+    color: #1C1F35;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-left: 2px solid  #FFB629;
+}
+.biggest_box1 h3{
+    color: #1C1F35;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 
+.big_box1{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+}
 
+.box_desc h4{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box_desc p{
+    color: #666C89;
+font-family: Krub;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 151.523%; /* 24.244px */
+}
+.box_desc{
+    border-left: 2px solid grey;
 
+}
 
+.biggest_box2{
+    display: flex;
+    align-items: center;
+    
+}
+.big_box1{
+    margin-left: 50px;
+}
 
+.biggest_box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
-
-
-
-
-
+#transport{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
 
 
 
@@ -145,6 +250,31 @@ background: #FFF;
         color: #FFF;
         font-size: 20px;
     }
+
+    .header_title_box{
+        width: 200px;
+        margin-top: 20%;
+    }
+    .header_title_box h2{
+        font-size: 30px;
+    }
+    .header_title_box button{
+        width: 144px;
+        height: 30px;
+    }
+   .header_title_box p{
+    font-size: 14px;
+   }
    
+   #transport{
+    flex-wrap: wrap;
+   }
+   .biggest_box2, .biggest_box3{
+    flex-direction: column;
+   }
+   .biggest_box1{
+    margin-bottom: 20px;
+   }
+
 }
 
